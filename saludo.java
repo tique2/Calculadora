@@ -4,7 +4,7 @@ public class saludo extends Operacion_basicas{
     public saludo(int numero1,int numero2,int resultado){
         //ya esta inicializado
         super(numero1, numero2, resultado);
-        System.out.println("hola mi nombre es Daniel");
+        System.out.println("hola bienbenido a mi calculadora.");
     };
     public void mostrar_datos(){
         System.out.println("resultado: "+GetSuma());
